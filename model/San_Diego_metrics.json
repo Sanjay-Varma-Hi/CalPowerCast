@@ -1,0 +1,9 @@
+{
+  "county": "San Diego",
+  "rmse": 36.7464,
+  "mae": 29.978,
+  "mape": 4.65,
+  "r2_score": 0.9053,
+  "training_samples": 36,
+  "evaluation_date": "2025-10-27T19:19:11.575407"
+}

@@ -1,0 +1,9 @@
+{
+  "county": "Sacramento",
+  "rmse": 44.0299,
+  "mae": 30.0047,
+  "mape": 3.94,
+  "r2_score": 0.9004,
+  "training_samples": 36,
+  "evaluation_date": "2025-10-27T19:30:34.206918"
+}

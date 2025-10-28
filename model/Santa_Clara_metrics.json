@@ -1,0 +1,9 @@
+{
+  "county": "Santa Clara",
+  "rmse": 58.9642,
+  "mae": 49.0478,
+  "mape": 6.93,
+  "r2_score": 0.8703,
+  "training_samples": 36,
+  "evaluation_date": "2025-10-27T18:55:38.224471"
+}

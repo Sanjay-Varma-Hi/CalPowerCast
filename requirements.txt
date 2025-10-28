@@ -1,0 +1,7 @@
+# Requirements for Hugging Face Spaces deployment
+fastapi
+uvicorn[standard]
+pandas
+joblib
+prophet
+pystan

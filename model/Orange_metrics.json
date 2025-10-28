@@ -1,9 +1,0 @@
-{
-  "county": "Orange",
-  "rmse": 35.6254,
-  "mae": 25.8412,
-  "mape": 3.8,
-  "r2_score": 0.9028,
-  "training_samples": 36,
-  "evaluation_date": "2025-10-27T19:28:29.432765"
-}

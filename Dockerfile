@@ -6,11 +6,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application files
+# Copy application files  
 COPY app.py .
 COPY forecast.py .
 
-# Copy models directory
+# Copy models directory (unified model)
 COPY model/ ./model/
 
 # Expose the port that FastAPI will run on

@@ -2,6 +2,8 @@
 fastapi
 uvicorn[standard]
 pandas
+curl
 joblib
-prophet
-pystan
+xgboost
+scikit-learn
+numpy

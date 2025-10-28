@@ -1,9 +1,0 @@
-{
-  "county": "Los Angeles",
-  "rmse": 64.5078,
-  "mae": 48.7887,
-  "mape": 6.9,
-  "r2_score": 0.7617,
-  "training_samples": 36,
-  "evaluation_date": "2025-10-27T18:56:03.680976"
-}

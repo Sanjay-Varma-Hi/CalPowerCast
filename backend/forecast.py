@@ -48,9 +48,9 @@ def get_forecast(county: str, periods: int = 12):
         dict: Forecast predictions
     """
     # Load model and metadata
-    # Path for Hugging Face deployment (files in model/ subdirectory)
-    model_path = os.path.join("model", "unified_forecast_model.pkl")
-    metadata_path = os.path.join("model", "unified_model_metadata.json")
+    # Path relative to backend directory
+    model_path = os.path.join(os.path.dirname(__file__), "..", "model", "unified_forecast_model.pkl")
+    metadata_path = os.path.join(os.path.dirname(__file__), "..", "model", "unified_model_metadata.json")
     
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"Model not found at {model_path}. Please train the model first.")
@@ -150,7 +150,7 @@ def get_forecast(county: str, periods: int = 12):
 
 def list_available_counties():
     """List all counties available in the unified model"""
-    metadata_path = os.path.join("model", "unified_model_metadata.json")
+    metadata_path = os.path.join(os.path.dirname(__file__), "..", "model", "unified_model_metadata.json")
     
     if not os.path.exists(metadata_path):
         return []

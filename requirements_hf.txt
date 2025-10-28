@@ -1,0 +1,10 @@
+# Requirements for Hugging Face Spaces deployment
+# Minimal dependencies for inference only (no database)
+
+fastapi
+uvicorn[standard]
+pandas
+joblib
+prophet
+pystan
+
